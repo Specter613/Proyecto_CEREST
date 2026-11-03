@@ -59,12 +59,50 @@ Proyecto modular de Ingeniería Robótica — Universidad de Guadalajara (CUCEI)
 | `Interfaz/` | Panel de control MAVLink (PIDs, IMU, posición, GPS, batería) |
 
 ## Herramientas en Python
+## Herramientas en Python
+
+Las herramientas (interfaz MAVLink, calibraciones y gráficas) requieren un
+**entorno virtual de Python**: en Ubuntu 23.04 y posteriores, `pip` no permite
+instalar paquetes directamente en el sistema.
+
+### 1. Dependencias del sistema (una sola vez)
+
+```bash
+sudo apt install python3-venv python3-tk
+```
+
+### 2. Crear el entorno virtual (una sola vez)
+
+Desde la raíz del repositorio:
+
+```bash
+python3 -m venv mavlink-env
+```
+
+### 3. Activar el entorno (cada vez que abras una terminal nueva)
+
+```bash
+source mavlink-env/bin/activate        # bash / zsh
+source mavlink-env/bin/activate.fish   # fish
+```
+
+Al activarlo, la terminal muestra `(mavlink-env)` al inicio de la línea.
+
+### 4. Instalar las librerías (una sola vez, con el entorno activo)
 
 ```bash
 pip install -r requirements.txt
 ```
 
-![Panel MAVLink](docs/imagenes/panel_mavlink.png)
+### 5. Ejecutar las herramientas
+
+Con el entorno activo, por ejemplo:
+
+```bash
+python3 Interfaz/Mavlink_IGrafica_V2.py
+```
+
+Para salir del entorno virtual: `deactivate`.
 
 ## Licencia
 
