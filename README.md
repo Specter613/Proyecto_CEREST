@@ -3,7 +3,7 @@ Diseño y desarrollo de un cuadricóptero capaz de reconstruir en tres dimension
 
 # C.E.R.E.S.T.
 
-Controlador de vuelo propio para cuadricóptero, desarrollado sobre un STM32F4,
+Controlador de vuelo propio para cuadricóptero, desarrollado sobre un STM32F405RGT6,
 con estimación de posición por flujo óptico, telemetría MAVLink y herramientas
 en Python para calibración, sintonía y monitoreo.
 
