@@ -9,7 +9,7 @@ en Python para calibración, sintonía y monitoreo.
 
 Proyecto modular de Ingeniería Robótica — Universidad de Guadalajara (CUCEI).
 
-![Dron CEREST](docs/imagenes/Drone.jpg)
+![Drone](docs/imagenes/Drone.jpeg)
 
 ## Características
 
@@ -38,7 +38,7 @@ Proyecto modular de Ingeniería Robótica — Universidad de Guadalajara (CUCEI)
 
 ## Diagrama eléctrico
 
-![Diagrama eléctrico](docs/imagenes/Controladora de vuelo.svg)
+![Diagrama eléctrico](docs/imagenes/Controladora_de_vuelo.svg)
 
 ## Canales del mando
 
