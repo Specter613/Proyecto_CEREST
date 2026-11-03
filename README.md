@@ -7,7 +7,7 @@ Controlador de vuelo propio para cuadricóptero, desarrollado sobre un STM32F405
 con estimación de posición por flujo óptico, telemetría MAVLink y herramientas
 en Python para calibración, sintonía y monitoreo.
 
-Proyecto modular de Ingeniería Robótica — Universidad de Guadalajara (CUCEI).
+Proyecto modular de Ingeniería Robótica — UDG CUCEI.
 
 ![Drone](docs/imagenes/Drone.jpeg)
 
