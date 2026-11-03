@@ -1,7 +1,8 @@
-# Proyecto_CEREST
-Diseño y desarrollo de un cuadricóptero capaz de reconstruir en tres dimensiones su entorno utilizando únicamente una cámara monocular, mediante técnicas de estimación de profundidad y de registro geométrico entre imágenes 2D.
+![Logo](docs/imagenes/Logo.png)
 
-# C.E.R.E.S.T.
+### "Cuadricóptero de Escaneo y Reconocimiento de Entornos y Superficies Terrestres"
+
+Diseño y desarrollo de un cuadricóptero capaz de reconstruir en tres dimensiones su entorno utilizando únicamente una cámara monocular, mediante técnicas de estimación de profundidad y de registro geométrico entre imágenes 2D.
 
 Controlador de vuelo propio para cuadricóptero, desarrollado sobre un STM32F405RGT6,
 con estimación de posición por flujo óptico, telemetría MAVLink y herramientas
