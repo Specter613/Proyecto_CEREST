@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/dron_sim_pkg/dron_sim_pkg.egg-info
+writing ../../build/dron_sim_pkg/dron_sim_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/dron_sim_pkg/dron_sim_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/dron_sim_pkg/dron_sim_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/dron_sim_pkg/dron_sim_pkg.egg-info/requires.txt
+writing top-level names to ../../build/dron_sim_pkg/dron_sim_pkg.egg-info/top_level.txt
+writing manifest file '../../build/dron_sim_pkg/dron_sim_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/dron_sim_pkg/dron_sim_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/dron_sim_pkg/dron_sim_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/build
+creating /home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/build/lib
+creating /home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/build/lib/dron_sim_pkg
+copying dron_sim_pkg/transform.py -> /home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/build/lib/dron_sim_pkg
+copying dron_sim_pkg/__init__.py -> /home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/build/lib/dron_sim_pkg
+running install
+running install_lib
+creating /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/lib/python3.12/site-packages/dron_sim_pkg
+copying /home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/build/lib/dron_sim_pkg/transform.py -> /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/lib/python3.12/site-packages/dron_sim_pkg
+copying /home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/build/lib/dron_sim_pkg/__init__.py -> /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/lib/python3.12/site-packages/dron_sim_pkg
+byte-compiling /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/lib/python3.12/site-packages/dron_sim_pkg/transform.py to transform.cpython-312.pyc
+byte-compiling /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/lib/python3.12/site-packages/dron_sim_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/ament_index
+creating /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/ament_index/resource_index
+creating /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/ament_index/resource_index/packages
+copying resource/dron_sim_pkg -> /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/dron_sim_pkg
+creating /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/dron_sim_pkg/launch
+copying launch/dron_sim.launch.py -> /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/dron_sim_pkg/launch
+creating /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/dron_sim_pkg/urdf
+copying urdf/dron_urdf.urdf -> /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/dron_sim_pkg/urdf
+creating /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/dron_sim_pkg/meshes
+copying meshes/ensamble_dron.stl -> /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/share/dron_sim_pkg/meshes
+running install_egg_info
+Copying ../../build/dron_sim_pkg/dron_sim_pkg.egg-info to /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/lib/python3.12/site-packages/dron_sim_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mavlink_tf_bridge script to /home/donnobny/Modular/ros2modular_ws/install/dron_sim_pkg/lib/dron_sim_pkg
+writing list of installed files to '/home/donnobny/Modular/ros2modular_ws/build/dron_sim_pkg/install.log'

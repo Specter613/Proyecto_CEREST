@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="drone_digital_twin">
+
+  <!-- Eslabón principal (centro de rotación del dron) -->
+  <link name="base_link">
+    <visual>
+      <!-- Ajusta el origen si el punto 0,0,0 de tu STL no está en el centro del dron -->
+      <origin xyz="0 0 0" rpy="-1.5708 0 0"/>
+      <geometry>
+        <!-- Reemplaza 'tu_paquete' con el nombre de tu paquete de ROS 2 -->
+        <mesh filename="package://dron_sim_pkg/meshes/ensamble_dron.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="gris">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+</robot>

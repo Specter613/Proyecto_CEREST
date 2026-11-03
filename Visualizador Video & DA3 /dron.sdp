@@ -1,0 +1,5 @@
+c=IN IP4 127.0.0.1
+m=video 5600 RTP/AVP 96
+a=rtpmap:96 H264/90000
+a=framerate:60
+a=fmtp:96 packetization-mode=1; profile-level-id=42e01f
