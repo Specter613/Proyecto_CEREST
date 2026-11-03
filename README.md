@@ -59,7 +59,6 @@ Proyecto modular de Ingeniería Robótica — Universidad de Guadalajara (CUCEI)
 | `Interfaz/` | Panel de control MAVLink (PIDs, IMU, posición, GPS, batería) |
 
 ## Herramientas en Python
-## Herramientas en Python
 
 Las herramientas (interfaz MAVLink, calibraciones y gráficas) requieren un
 **entorno virtual de Python**: en Ubuntu 23.04 y posteriores, `pip` no permite
