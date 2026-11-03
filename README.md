@@ -34,7 +34,7 @@ Proyecto modular de Ingeniería Robótica — UDG CUCEI.
 | Motores | 2212 920 KV, hélices 8045 | TIM3 (PWM 250 Hz) |
 | Servo | SG90 | TIM2 CH2 |
 | Módulo de potencia | Tipo 3DR | PC1 (voltaje), PC3 (corriente) |
-| Buzzer | JHE42B | PC2 (vía transistor NPN) |
+|Camara | eachine sphere link (OpenIpc) | Telemetria aun no añadida |
 
 ## Diagrama eléctrico
 
